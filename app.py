@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main_page():
-    return '<h1>Hello from Flask & Docker! \n NEW VERSION</h2>'
+    return '<h1>Hello from Flask & Docker! \n OLD VERSION</h2>'
 
 
 if __name__ == "__main__":
