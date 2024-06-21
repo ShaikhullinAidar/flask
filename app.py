@@ -9,7 +9,7 @@ def main_page():
     b = random.randint(0, 100)
     c = random.randint(0, 100)
     d = random.randint(0, 100)
-    return f'<h1>Реши примеры</h2>' \
+    return f'<h1>Реши примеры:</h2>' \
            f'<p>{a} + {b} =</p>' \
            f'<p>{c} - {d} =</p>'
 
